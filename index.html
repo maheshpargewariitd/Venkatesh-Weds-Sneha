@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Venkatesh Weds Sneha</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Petals Animation -->
+<div id="petals-container"></div>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="shehnai.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Ganpati Opening Screen -->
+<section id="opening-screen">
+
+    <div class="ganpati-container">
+
+        <img
+            src="ganpati.png"
+            alt="Ganpati"
+            class="ganpati-image">
+
+        <h2>॥ श्री गणेशाय नमः ॥</h2>
+
+        <h1>Venkatesh Weds Sneha</h1>
+
+        <p>26 July 2026</p>
+
+        <button id="enterBtn">
+            Open Invitation
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Main Website -->
+<div id="main-content">
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h3>Wedding Invitation</h3>
+
+            <h1>
+                व्यंकटेश ❤️ स्नेहा
+            </h1>
+
+            <h2>
+                Venkatesh ❤️ Sneha
+            </h2>
+
+            <p>
+                26 July 2026 | 12:33 PM
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Save The Date -->
+    <section class="save-date">
+
+        <div class="card">
+
+            <h2>Save The Date</h2>
+
+            <div id="scratch-card">
+
+                <div id="scratch-overlay">
+                    Scratch Here
+                </div>
+
+                <div id="scratch-content">
+                    26 JULY 2026
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown-section">
+
+        <h2>
+            विवाहास उरलेला वेळ
+        </h2>
+
+        <h3>
+            Time Remaining Until Wedding
+        </h3>
+
+        <div class="countdown">
+
+            <div class="box">
+                <span id="days">00</span>
+                <p>Days</p>
+            </div>
+
+            <div class="box">
+                <span id="hours">00</span>
+                <p>Hours</p>
+            </div>
+
+            <div class="box">
+                <span id="minutes">00</span>
+                <p>Minutes</p>
+            </div>
+
+            <div class="box">
+                <span id="seconds">00</span>
+                <p>Seconds</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Devkarya -->
+    <section class="event-section">
+
+        <div class="card">
+
+            <h2>🌼 देवकार्य</h2>
+
+            <h3>Devkarya Ceremony</h3>
+
+            <p>
+                24 July 2026
+            </p>
+
+            <a
+                href="https://maps.app.goo.gl/Rw9nx9BeArbFYjFK8?g_st=ac"
+                target="_blank"
+                class="map-btn">
+
+                Get Directions
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Wedding -->
+    <section class="event-section">
+
+        <div class="card">
+
+            <h2>💍 विवाह सोहळा</h2>
+
+            <h3>Wedding Ceremony</h3>
+
+            <p>
+                26 July 2026
+                <br>
+                12:33 PM
+            </p>
+
+            <p>
+                Jairaj Palace
+                <br>
+                Naigaon, Nanded
+            </p>
+
+            <a
+                href="https://maps.app.goo.gl/TCvhE6Tkm6KTCUd57?g_st=ac"
+                target="_blank"
+                class="map-btn">
+
+                Get Directions
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section">
+
+        <div class="card">
+
+            <h2>📸 Memories</h2>
+
+            <p>
+                Couple Photos Coming Soon
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp-section">
+
+        <div class="card">
+
+            <h2>💌 RSVP</h2>
+
+            <h3>
+                आपण उपस्थित राहणार का?
+            </h3>
+
+            <p>
+                Will You Attend?
+            </p>
+
+            <form id="rsvpForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Name"
+                    required>
+
+                <input
+                    type="number"
+                    id="guests"
+                    min="1"
+                    value="1"
+                    placeholder="Number of Guests">
+
+                <select id="attendance">
+
+                    <option value="Yes">
+                        Yes, I Will Attend
+                    </option>
+
+                    <option value="No">
+                        No, I Cannot Attend
+                    </option>
+
+                </select>
+
+                <button type="submit">
+
+                    Submit RSVP
+
+                </button>
+
+            </form>
+
+            <div id="message"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>
+            Venkatesh ❤️ Sneha
+        </h2>
+
+        <p>
+            Thank You For Your Blessings
+        </p>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
